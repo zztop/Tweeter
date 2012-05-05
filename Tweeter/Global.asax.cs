@@ -26,6 +26,8 @@ namespace Tweeter
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
+            routes.MapRoute("UserAccount", "{controller}/{action}/{id}",
+               new { controller = "UserInfo", id = UrlParameter.Optional });
 
         }
 
