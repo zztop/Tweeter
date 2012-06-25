@@ -74,26 +74,30 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap\css\bootstrap-responsive.css" />
-    <Content Include="Content\bootstrap\css\bootstrap-responsive.min.css" />
-    <Content Include="Content\bootstrap\css\bootstrap.css" />
-    <Content Include="Content\bootstrap\css\bootstrap.min.css" />
-    <Content Include="Content\bootstrap\img\glyphicons-halflings-white.png" />
-    <Content Include="Content\bootstrap\img\glyphicons-halflings.png" />
-    <Content Include="Content\bootstrap\js\bootstrap.js" />
-    <Content Include="Content\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\app\config.js" />
+    <Content Include="Content\app\router.js" />
+    <Content Include="Content\libs\bootstrap\css\bootstrap-responsive.css" />
+    <Content Include="Content\libs\bootstrap\css\bootstrap-responsive.min.css" />
+    <Content Include="Content\libs\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\libs\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\libs\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="Content\libs\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="Content\libs\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\libs\bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\img\sign-in-with-twitter-d.png" />
     <Content Include="Content\img\tweeter-index.png" />
-    <Content Include="Content\Style.css" />
+    <Content Include="Content\css\Style.css" />
+    <Content Include="Content\libs\Require\require.js" />
+    <Content Include="Content\app\main.js" />
     <Content Include="GettingStarted.txt" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\css\Site.css" />
     <Content Include="Json.NET.license.txt" />
-    <Content Include="Scripts\Backbone.js" />
-    <Content Include="Scripts\jquery.js" />
-    <Content Include="Scripts\json2.js" />
-    <Content Include="Scripts\modernizr.js" />
-    <Content Include="Scripts\underscore.js" />
+    <Content Include="Content\libs\backbone\Backbone.js" />
+    <Content Include="Content\libs\Jquery\jquery.js" />
+    <Content Include="Content\libs\Helper\json2.js" />
+    <Content Include="Content\libs\Helper\modernizr.js" />
+    <Content Include="Content\libs\Underscore\underscore.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -109,6 +113,11 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Content\app\collections\" />
+    <Folder Include="Content\app\models\" />
+    <Folder Include="Content\app\NewFolder1\" />
+    <Folder Include="Content\app\templates\" />
+    <Folder Include="Content\app\views\" />
     <Folder Include="Controllers\UserAccount\" />
     <Folder Include="Models\" />
   </ItemGroup>
