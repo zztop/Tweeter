@@ -1,19 +1,21 @@
 ﻿require.config({
 
     // Initialize the application with the main application file.
-    deps: ["main"],
+    deps: ["app/main"],
+   // baseUrl:"../",
 
     paths: {
         // JavaScript folders.
         libs: "libs",
-        app: "app",
         helper:"libs/helper",
+        apps:"app",
         // Libraries.
         jquery: "libs/jquery/jquery",
         underscore: "libs/underscore/underscore",
-        backbone: "libs/backbone",
-        modenizr:"helper/modenizr",
-        json:"helper/json2"
+        backbone: "libs/backbone/backbone",
+        modernizr:"libs/helper/modernizr",
+        json:"libs/helper/json2",
+        text:"libs/Require/text"
     },
 
     shim: {

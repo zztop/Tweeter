@@ -74,7 +74,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\app\config.js" />
+    <Content Include="Content\app\views\app.js" />
+    <Content Include="Content\config.js" />
     <Content Include="Content\app\router.js" />
     <Content Include="Content\libs\bootstrap\css\bootstrap-responsive.css" />
     <Content Include="Content\libs\bootstrap\css\bootstrap-responsive.min.css" />
@@ -89,14 +90,16 @@
     <Content Include="Content\css\Style.css" />
     <Content Include="Content\libs\Require\require.js" />
     <Content Include="Content\app\main.js" />
+    <Content Include="Content\libs\Require\text.js" />
     <Content Include="GettingStarted.txt" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\Site.css" />
+    <Content Include="index.htm" />
     <Content Include="Json.NET.license.txt" />
     <Content Include="Content\libs\backbone\Backbone.js" />
     <Content Include="Content\libs\Jquery\jquery.js" />
-    <Content Include="Content\libs\Helper\json2.js" />
-    <Content Include="Content\libs\Helper\modernizr.js" />
+    <Content Include="Content\libs\helper\json2.js" />
+    <Content Include="Content\libs\helper\modernizr.js" />
     <Content Include="Content\libs\Underscore\underscore.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -115,9 +118,7 @@
   <ItemGroup>
     <Folder Include="Content\app\collections\" />
     <Folder Include="Content\app\models\" />
-    <Folder Include="Content\app\NewFolder1\" />
     <Folder Include="Content\app\templates\" />
-    <Folder Include="Content\app\views\" />
     <Folder Include="Controllers\UserAccount\" />
     <Folder Include="Models\" />
   </ItemGroup>

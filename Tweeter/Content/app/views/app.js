@@ -3,7 +3,7 @@
   "jquery",
   "underscore",
   "backbone",
-  "modenizr",
+  "modernizr",
   "json",
 
 // Plugins.
